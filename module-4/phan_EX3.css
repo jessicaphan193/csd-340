@@ -1,0 +1,73 @@
+/* phan_EX3.css */
+
+h1 {
+    text-align: center;
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+}
+
+/*#left {
+    width: 45%;
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    border: 1px solid red;
+}
+
+#right{
+    width: 45%;
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    border: 1px dashed red;
+}
+*/
+
+.side {
+    width: 45%;
+    float: left;
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    
+}
+
+.side.left {
+    border: 1px solid red;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.side.right {
+    border: 1px dashed red;
+    border-radius: 15px;
+    padding: 10px;
+    float: right;
+}
+
+
+h3 {
+    font-weight: 500;
+}
+
+li {
+    font-weight: 300;
+}
+
+ul {
+    list-style: upper-roman;
+}
+
+#new {
+    width: 100%;
+    margin-top: 60%;
+}
+
+#last {
+    float: right;
+    margin-bottom: 20px;
+    /*width: 100%; need to not exist to float right 
+    margin-top: 60%;*/
+}
+
+a {
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
